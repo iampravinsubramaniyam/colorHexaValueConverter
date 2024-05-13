@@ -5,9 +5,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+
+.form{
+  width: 200px;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input{
+  width: 100%;
+  height: 30px;
+  padding: 0px 6px;
+}
+
+
+.colorGenerator{
+  flex-direction: column;
+}
+
+.toggleButton{
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  box-shadow: 1px 2px 5px black;
+}
+
+
+.outputs{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
